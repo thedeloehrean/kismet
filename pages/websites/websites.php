@@ -1,5 +1,5 @@
 <div id="websites-panel">
-    <div class="content-frame-container container">
+    <div class="container">
         <h2>Website Development &amp; Design</h2>
     </div>
     <div class="content-frame-container container">
@@ -25,4 +25,4 @@
 		<?php include('projects/extra/extra.php'); ?>
     </div>
 </div>
-<script src="/pages/websites/js/websites.js"></script>
+<script src="/pages/websites/websites.js"></script>
