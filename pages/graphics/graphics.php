@@ -7,72 +7,270 @@
     </div>
 
     <div class="content-frame-container container">
-        <div class="row">
-            <div class="col-sm-12"><h4 style="color:#fff;">Andrew M Loehr is a Frontend Website Developer,&nbsp;UI/UX
-                    Designer, and Graphic designer with a focus on eCommerce living in Ferndale, MI.</h4>
+        <main id="graphics-panel">
 
-                <p>He has over 20 years of front-end, user-centered (UI), structure-oriented, design experience comprised of
-                    website design and development, software application design and development, consulting, company
-                    branding, marketing, graphic design, and search engine optimization (SEO).</p>
 
-                <p>Andrew is an expert in graphic design (digital and illustration), web design and styling (CSS), proper
-                    website architecture (HTML, W3C Compliance, Browser Compatibility), and has the knowledge, skills, and
-                    experience to address and solve your company, band, or personal creative, innovative, and technical
-                    needs.</p>
+            <div class="container"><div class="row"><div class="col-sm-12">    <div class="row"><div class="col-sm-12"><div class="ccm-custom-style-main26 cd-art-container">
 
-                <p>In 2000, he was a sophomore in high school and had just finished his first web development class. He had
-                    toyed with building websites before but learned enough in the course to begin building his first real
-                    website for his band, Forever Ending. Since a child, he had always loved to draw and play music. Now,
-                    with his newfound knowledge of HTML and CSS, he was able to begin putting what he loved to use on the
-                    Internet.</p>
 
-                <p>Before long, Andrew Loehr was designing tee shirts, marketing ads, album artwork, and websites for a
-                    number of bands in the Detroit area and many bands from around the country in the early 2000s under his
-                    first unofficial company, Loehr Concept &amp; Design. His ability to combine hand-drawn art, digital
-                    photography, digital graphics, and web development gave bands an all-inclusive designer for any project
-                    they needed.</p>
+                                    <div class="ccm-custom-style-container ccm-custom-style-main26-287 album-group">
 
-                <p>In 2004, Andrew began to record artists in his basement from everything between demos, EPs, and
-                    full-length albums. He started a record label and multimedia design firm called Horseshoe Records, which
-                    is still active today. He has engineered, mixed, and/or mastered over 15 projects to date, created
-                    custom-designed merchandise, websites, advertisements, and album artwork for bands, other record labels,
-                    and clothing companies, including Hopeless Records, Royden, What Happened in Vegas, Alucard, Skin Thread
-                    Clothing Co., The Weakend, and many more and is currently in the process of building a new sound studio
-                    to suit his and his clients growing needs.</p>
 
-                <p>As Andrew continued to do freelance graphic and web work, he was contracted into Moosejaw.com for his
-                    skills in 2007 and was promoted to Assistant Webmaster by early 2009. He ran a daily analysis of the
-                    product database and corrected errors by identifying improper information for products, descriptions,
-                    and things that could affect front-end functionality. Andrew was also responsible for updating new and
-                    carryover product images, original content, and descriptions for a wide variety of outdoor equipment,
-                    clothing, and footwear brands. He also organized creative elements for scheduled daily newsletters sent
-                    to hundreds of thousands of customers.</p>
+                                        <div class="ccm-custom-style-container ccm-custom-style-main-174 graphic-item album-cover">
+                                            <picture><!--[if IE 9]><video style='display: none;'><![endif]--><!--[if IE 9]></video><![endif]--><img src="/application/files/8315/8986/9844/alucard-cd-cover-front.jpg" alt="" class="ccm-image-block img-responsive bID-174"></picture>
+                                        </div>
 
-                <p>In 2010, Andrew was hired as a full-time graphic assistant at LocoX.com, a motocross eCommerce store on a
-                    Volusion platform. During his first year, he was responsible for the creative elements of weekly
-                    newsletters and sent campaigns to over 100,000 customers as well as used comparative analytics to adjust
-                    future campaigns and helped the company move the store from Volusion to Netsuite. He created and
-                    designed over 400 advertisements for featured products throughout the website, product marketing
-                    efforts, email campaigns, the Google Ad Network, and advertisements in Transworld, RacerX, VitalMX,
-                    Facebook, and more. By 2011, he was promoted to the position of Website Manager and developed a cleaner
-                    and more intuitive landing page structure for each storefront, and designed and implemented new
-                    templates for categories and items based on market research and knowledge of W3C and SEO rules for
-                    faster load times, better search engine visibility, more organized content, and better overall user
-                    experience.</p>
 
-                <p>By the end of 2011, Andrew Loehr launched an online software and web development firm with his father
-                    called Brighter Technology as the Chief Design Officer. As a team, they have developed 7 very different
-                    websites with custom applications in environments like BigCommerce, Concrete5, and WHMCS. Together, they
-                    developed entire multimedia packages, company branding and marketing strategies, and websites for local
-                    and national businesses, such as The Huntsville Haunted Corn Maze, Pant Saggin Dezign Clothing Company,
-                    Rocket City Titans Football Team, Brighter12.com, and developed BrighterHost.com as a web hosting
-                    solution for their clients.</p>
+                                        <div class="ccm-custom-style-container ccm-custom-style-main-180 graphic-item album-face">
+                                            <picture><!--[if IE 9]><video style='display: none;'><![endif]--><!--[if IE 9]></video><![endif]--><img src="/application/files/5415/8986/9836/alucard-cd-face.png" alt="" class="ccm-image-block img-responsive bID-180"></picture>
+                                        </div>
 
-                <p>Andrew currently works for Neon Workforce Technologies as their UI/UX Developer and Software Tester. He
-                    is still active with Brighter Technology and Horseshoe Records as a freelance designer and continues to
-                    record music in his free time.</p>
 
-            </div>
-        </div>
+                                        <div class="ccm-custom-style-container ccm-custom-style-main-201 graphic-item tray-in">
+                                            <picture><!--[if IE 9]><video style='display: none;'><![endif]--><!--[if IE 9]></video><![endif]--><img src="/application/files/3815/8986/9825/alucard-cd-tray-inside.jpg" alt="" class="ccm-image-block img-responsive bID-201"></picture>
+                                        </div>
+
+
+                                        <div class="ccm-custom-style-container ccm-custom-style-main-202 graphic-item tray-out">
+                                            <picture><!--[if IE 9]><video style='display: none;'><![endif]--><!--[if IE 9]></video><![endif]--><img src="/application/files/2215/8986/9857/alucard-cd-cover-back.jpg" alt="" class="ccm-image-block img-responsive bID-202"></picture>
+                                        </div>
+
+
+                                        <div class="ccm-custom-style-container ccm-custom-style-main-215 graphic-item longboi1">
+                                            <picture><!--[if IE 9]><video style='display: none;'><![endif]--><!--[if IE 9]></video><![endif]--><img src="/application/files/3115/8986/9865/alucard-cd-booklet-out.jpg" alt="" class="ccm-image-block img-responsive bID-215"></picture>
+                                        </div>
+
+
+                                        <div class="ccm-custom-style-container ccm-custom-style-main-214 graphic-item longboi2">
+                                            <picture><!--[if IE 9]><video style='display: none;'><![endif]--><!--[if IE 9]></video><![endif]--><img src="/application/files/5115/8986/9887/alucard-cd-booklet-in.jpg" alt="" class="ccm-image-block img-responsive bID-214"></picture>
+                                        </div>
+
+                                    </div>
+
+
+                                    <div class="ccm-custom-style-container ccm-custom-style-main26-290 album-group vinyl">
+
+
+                                        <div class="ccm-custom-style-container ccm-custom-style-main-253 graphic-item album-cover">
+                                            <picture><!--[if IE 9]><video style='display: none;'><![endif]--><!--[if IE 9]></video><![endif]--><img src="/application/files/4815/8987/0229/andrew-loehr-pact-cd-cover.jpg" alt="" class="ccm-image-block img-responsive bID-253"></picture>
+                                        </div>
+
+
+                                        <div class="ccm-custom-style-container ccm-custom-style-main-255 graphic-item album-face">
+                                            <picture><!--[if IE 9]><video style='display: none;'><![endif]--><!--[if IE 9]></video><![endif]--><img src="/application/files/7515/8974/9815/andrew-loehr-pact-cd-face.png" alt="" class="ccm-image-block img-responsive bID-255"></picture>
+                                        </div>
+
+
+                                        <div class="ccm-custom-style-container ccm-custom-style-main-257 graphic-item lonelyboi">
+                                            <picture><!--[if IE 9]><video style='display: none;'><![endif]--><!--[if IE 9]></video><![endif]--><img src="/application/files/6615/8987/0236/andrew-loehr-pact-cd-booklet-out.jpg" alt="" class="ccm-image-block img-responsive bID-257"></picture>
+                                        </div>
+
+                                    </div>
+
+
+                                    <div class="ccm-custom-style-container ccm-custom-style-main26-289 album-group">
+
+
+                                        <div class="ccm-custom-style-container ccm-custom-style-main-160 graphic-item album-cover">
+                                            <picture><!--[if IE 9]><video style='display: none;'><![endif]--><!--[if IE 9]></video><![endif]--><img src="/application/files/7615/8987/1034/royden-cd-cover-front.jpg" alt="" class="ccm-image-block img-responsive bID-160"></picture>
+                                        </div>
+
+
+                                        <div class="ccm-custom-style-container ccm-custom-style-main-161 graphic-item album-face">
+                                            <picture><!--[if IE 9]><video style='display: none;'><![endif]--><!--[if IE 9]></video><![endif]--><img src="/application/files/5515/8987/1150/royden-cd-face-540.png" alt="" class="ccm-image-block img-responsive bID-161"></picture>
+                                        </div>
+
+
+                                        <div class="ccm-custom-style-container ccm-custom-style-main-210 graphic-item tray-in">
+                                            <picture><!--[if IE 9]><video style='display: none;'><![endif]--><!--[if IE 9]></video><![endif]--><img src="/application/files/2315/8987/1019/royden-cd-tray-inside.jpg" alt="" class="ccm-image-block img-responsive bID-210"></picture>
+                                        </div>
+
+
+                                        <div class="ccm-custom-style-container ccm-custom-style-main-209 graphic-item tray-out">
+                                            <picture><!--[if IE 9]><video style='display: none;'><![endif]--><!--[if IE 9]></video><![endif]--><img src="/application/files/5215/8987/1028/royden-cd-cover-back.jpg" alt="" class="ccm-image-block img-responsive bID-209"></picture>
+                                        </div>
+
+
+                                        <div class="ccm-custom-style-container ccm-custom-style-main-293 graphic-item medboi1">
+                                            <picture><!--[if IE 9]><video style='display: none;'><![endif]--><!--[if IE 9]></video><![endif]--><img src="/application/files/9915/8987/1041/royden-cd-booklet-out.jpg" alt="" class="ccm-image-block img-responsive bID-293"></picture>
+                                        </div>
+
+
+                                        <div class="ccm-custom-style-container ccm-custom-style-main-294 graphic-item medboi2">
+                                            <picture><!--[if IE 9]><video style='display: none;'><![endif]--><!--[if IE 9]></video><![endif]--><img src="/application/files/4415/8987/1049/royden-cd-booklet-in.jpg" alt="" class="ccm-image-block img-responsive bID-294"></picture>
+                                        </div>
+
+                                    </div>
+
+
+                                    <div class="ccm-custom-style-container ccm-custom-style-main26-251 album-group">
+
+
+                                        <div class="ccm-custom-style-container ccm-custom-style-main-242 graphic-item album-cover">
+                                            <picture><!--[if IE 9]><video style='display: none;'><![endif]--><!--[if IE 9]></video><![endif]--><img src="/application/files/8715/8987/0754/elephantom-cd-cover-front.jpg" alt="" class="ccm-image-block img-responsive bID-242"></picture>
+                                        </div>
+
+
+                                        <div class="ccm-custom-style-container ccm-custom-style-main-244 graphic-item album-face">
+                                            <picture><!--[if IE 9]><video style='display: none;'><![endif]--><!--[if IE 9]></video><![endif]--><img src="/application/files/7015/8987/0746/elephantom-cd-face.png" alt="" class="ccm-image-block img-responsive bID-244"></picture>
+                                        </div>
+
+
+                                        <div class="ccm-custom-style-container ccm-custom-style-main-246 graphic-item tray-only">
+                                            <picture><!--[if IE 9]><video style='display: none;'><![endif]--><!--[if IE 9]></video><![endif]--><img src="/application/files/5015/8987/0762/elephantom-cd-cover-back.jpg" alt="" class="ccm-image-block img-responsive bID-246"></picture>
+                                        </div>
+
+
+                                        <div class="ccm-custom-style-container ccm-custom-style-main-248 graphic-item shortboi1">
+                                            <picture><!--[if IE 9]><video style='display: none;'><![endif]--><!--[if IE 9]></video><![endif]--><img src="/application/files/1415/8987/0793/elephantom-cd-booklet-outside.jpg" alt="" class="ccm-image-block img-responsive bID-248"></picture>
+                                        </div>
+
+
+                                        <div class="ccm-custom-style-container ccm-custom-style-main-250 graphic-item shortboi2">
+                                            <picture><!--[if IE 9]><video style='display: none;'><![endif]--><!--[if IE 9]></video><![endif]--><img src="/application/files/5815/8987/0787/elephantom-cd-booklet-inside.jpg" alt="" class="ccm-image-block img-responsive bID-250"></picture>
+                                        </div>
+
+                                    </div>
+
+
+                                    <div class="ccm-custom-style-container ccm-custom-style-main26-224 album-group">
+
+
+                                        <div class="ccm-custom-style-container ccm-custom-style-main-219 graphic-item album-cover">
+                                            <picture><!--[if IE 9]><video style='display: none;'><![endif]--><!--[if IE 9]></video><![endif]--><img src="/application/files/2415/8987/0590/eight-seconds-upside-down-cd-cover-front.jpg" alt="" class="ccm-image-block img-responsive bID-219"></picture>
+                                        </div>
+
+
+                                        <div class="ccm-custom-style-container ccm-custom-style-main-221 graphic-item album-face">
+                                            <picture><!--[if IE 9]><video style='display: none;'><![endif]--><!--[if IE 9]></video><![endif]--><img src="/application/files/2015/8987/0581/eight-seconds-upside-down-cd-face.png" alt="" class="ccm-image-block img-responsive bID-221"></picture>
+                                        </div>
+
+
+                                        <div class="ccm-custom-style-container ccm-custom-style-main-223 graphic-item tray-only">
+                                            <picture><!--[if IE 9]><video style='display: none;'><![endif]--><!--[if IE 9]></video><![endif]--><img src="/application/files/5215/8987/0607/eight-seconds-upside-down-cd-cover-back.jpg" alt="" class="ccm-image-block img-responsive bID-223"></picture>
+                                        </div>
+
+                                    </div>
+                                </div></div></div>
+                    </div></div></div>
+
+            <div class="container"><div class="row"><div class="col-sm-12">    <div class="row"><div class="col-sm-12"><div class="ccm-custom-style-main25 cd-art-container">
+
+
+                                    <div class="ccm-custom-style-container ccm-custom-style-main25-198 album-group">
+
+
+                                        <div class="ccm-custom-style-container ccm-custom-style-main-191 graphic-item album-cover">
+                                            <picture><!--[if IE 9]><video style='display: none;'><![endif]--><!--[if IE 9]></video><![endif]--><img src="/application/files/3615/8987/0424/asecondtoolate-cd-cover-front.jpg" alt="" class="ccm-image-block img-responsive bID-191"></picture>
+                                        </div>
+
+
+                                        <div class="ccm-custom-style-container ccm-custom-style-main-193 graphic-item album-face">
+                                            <picture><!--[if IE 9]><video style='display: none;'><![endif]--><!--[if IE 9]></video><![endif]--><img src="/application/files/4815/8987/0416/asecondtoolate-cd-face.png" alt="" class="ccm-image-block img-responsive bID-193"></picture>
+                                        </div>
+
+
+                                        <div class="ccm-custom-style-container ccm-custom-style-main-211 graphic-item tray-only">
+                                            <picture><!--[if IE 9]><video style='display: none;'><![endif]--><!--[if IE 9]></video><![endif]--><img src="/application/files/2915/8987/0434/asecondtoolate-cd-cover-back.jpg" alt="" class="ccm-image-block img-responsive bID-211"></picture>
+                                        </div>
+
+
+                                        <div class="ccm-custom-style-container ccm-custom-style-main-212 graphic-item shortboi1">
+                                            <picture><!--[if IE 9]><video style='display: none;'><![endif]--><!--[if IE 9]></video><![endif]--><img src="/application/files/6515/8987/0443/asecondtoolate-cd-booklet-out.jpg" alt="" class="ccm-image-block img-responsive bID-212"></picture>
+                                        </div>
+
+
+                                        <div class="ccm-custom-style-container ccm-custom-style-main-213 graphic-item shortboi2">
+                                            <picture><!--[if IE 9]><video style='display: none;'><![endif]--><!--[if IE 9]></video><![endif]--><img src="/application/files/2615/8987/0451/asecondtoolate-cd-booklet-in.jpg" alt="" class="ccm-image-block img-responsive bID-213"></picture>
+                                        </div>
+
+                                    </div>
+
+
+                                    <div class="ccm-custom-style-container ccm-custom-style-main25-240 album-group">
+
+
+                                        <div class="ccm-custom-style-container ccm-custom-style-main-233 graphic-item album-cover">
+                                            <picture><!--[if IE 9]><video style='display: none;'><![endif]--><!--[if IE 9]></video><![endif]--><img src="/application/files/9915/8987/1620/woodward-cd-cover-front.jpg" alt="" class="ccm-image-block img-responsive bID-233"></picture>
+                                        </div>
+
+
+                                        <div class="ccm-custom-style-container ccm-custom-style-main-234 graphic-item album-face">
+                                            <picture><!--[if IE 9]><video style='display: none;'><![endif]--><!--[if IE 9]></video><![endif]--><img src="/application/files/9015/8987/1612/woodward-cd-face-520.png" alt="" class="ccm-image-block img-responsive bID-234"></picture>
+                                        </div>
+
+
+                                        <div class="ccm-custom-style-container ccm-custom-style-main-237 graphic-item tray-only">
+                                            <picture><!--[if IE 9]><video style='display: none;'><![endif]--><!--[if IE 9]></video><![endif]--><img src="/application/files/4115/8987/1627/woodward-cd-cover-back.jpg" alt="" class="ccm-image-block img-responsive bID-237"></picture>
+                                        </div>
+
+
+                                        <div class="ccm-custom-style-container ccm-custom-style-main-238 graphic-item longboi1">
+                                            <picture><!--[if IE 9]><video style='display: none;'><![endif]--><!--[if IE 9]></video><![endif]--><img src="/application/files/2515/8987/1642/woodward-cd-booklet-out.jpg" alt="" class="ccm-image-block img-responsive bID-238"></picture>
+                                        </div>
+
+
+                                        <div class="ccm-custom-style-container ccm-custom-style-main-239 graphic-item longboi2">
+                                            <picture><!--[if IE 9]><video style='display: none;'><![endif]--><!--[if IE 9]></video><![endif]--><img src="/application/files/8915/8987/1635/woodward-cd-booklet-in.jpg" alt="" class="ccm-image-block img-responsive bID-239"></picture>
+                                        </div>
+
+                                    </div>
+
+
+                                    <div class="ccm-custom-style-container ccm-custom-style-main25-229 album-group">
+
+
+                                        <div class="ccm-custom-style-container ccm-custom-style-main-226 graphic-item album-cover">
+                                            <picture><!--[if IE 9]><video style='display: none;'><![endif]--><!--[if IE 9]></video><![endif]--><img src="/application/files/8015/8987/0890/elle-and-the-fonts-cd-cover.jpg" alt="" class="ccm-image-block img-responsive bID-226"></picture>
+                                        </div>
+
+
+                                        <div class="ccm-custom-style-container ccm-custom-style-main-228 graphic-item album-face">
+                                            <picture><!--[if IE 9]><video style='display: none;'><![endif]--><!--[if IE 9]></video><![endif]--><img src="/application/files/9815/8987/0883/elle-and-the-fonts-cd-face.png" alt="" class="ccm-image-block img-responsive bID-228"></picture>
+                                        </div>
+
+                                    </div>
+
+
+                                    <div class="ccm-custom-style-container ccm-custom-style-main25-291 album-group cassette">
+
+
+                                        <div class="ccm-custom-style-container ccm-custom-style-main-261 graphic-item tape-face">
+                                            <picture><!--[if IE 9]><video style='display: none;'><![endif]--><!--[if IE 9]></video><![endif]--><img src="/application/files/1915/8987/1347/weakend-hereavv-tape-face.png" alt="" class="ccm-image-block img-responsive bID-261"></picture>
+                                        </div>
+
+
+                                        <div class="ccm-custom-style-container ccm-custom-style-main-262 graphic-item album-cover">
+                                            <picture><!--[if IE 9]><video style='display: none;'><![endif]--><!--[if IE 9]></video><![endif]--><img src="/application/files/8815/8987/1411/weakend-hereavv-insert-out.jpg" alt="" class="ccm-image-block img-responsive bID-262"></picture>
+                                        </div>
+
+
+                                        <div class="ccm-custom-style-container ccm-custom-style-main-276 graphic-item lonelyboi">
+                                            <picture><!--[if IE 9]><video style='display: none;'><![endif]--><!--[if IE 9]></video><![endif]--><img src="/application/files/5915/8987/1418/weakend-hereavv-insert-in.jpg" alt="" class="ccm-image-block img-responsive bID-276"></picture>
+                                        </div>
+
+                                    </div>
+
+
+                                    <div class="ccm-custom-style-container ccm-custom-style-main25-292 album-group cassette">
+
+
+                                        <div class="ccm-custom-style-container ccm-custom-style-main-268 graphic-item tape-face">
+                                            <picture><!--[if IE 9]><video style='display: none;'><![endif]--><!--[if IE 9]></video><![endif]--><img src="/application/files/3115/8987/1315/weakend-tornado-days-tape-face.png" alt="" class="ccm-image-block img-responsive bID-268"></picture>
+                                        </div>
+
+
+                                        <div class="ccm-custom-style-container ccm-custom-style-main-270 graphic-item album-cover">
+                                            <picture><!--[if IE 9]><video style='display: none;'><![endif]--><!--[if IE 9]></video><![endif]--><img src="/application/files/5815/8987/1325/weakend-tornado-days-tape-insert-out.jpg" alt="" class="ccm-image-block img-responsive bID-270"></picture>
+                                        </div>
+
+
+                                        <div class="ccm-custom-style-container ccm-custom-style-main-272 graphic-item lonelyboi">
+                                            <picture><!--[if IE 9]><video style='display: none;'><![endif]--><!--[if IE 9]></video><![endif]--><img src="/application/files/8915/8987/1333/weakend-tornado-days-tape-insert-in.jpg" alt="" class="ccm-image-block img-responsive bID-272"></picture>
+                                        </div>
+
+                                    </div>
+                                </div></div></div>
+                    </div></div></div></main>
     </div>
 </div>
