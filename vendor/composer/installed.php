@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'pretty_version' => '1.0.0+no-version-set',
+        'version' => '1.0.0.0',
+        'type' => 'library',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'reference' => NULL,
+        'name' => '__root__',
+        'dev' => true,
+    ),
+    'versions' => array(
+        '__root__' => array(
+            'pretty_version' => '1.0.0+no-version-set',
+            'version' => '1.0.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'reference' => NULL,
+            'dev_requirement' => false,
+        ),
+        'components/jquery' => array(
+            'pretty_version' => '2.2.4',
+            'version' => '2.2.4.0',
+            'type' => 'component',
+            'install_path' => __DIR__ . '/../components/jquery',
+            'aliases' => array(),
+            'reference' => '981036fcb56668433a7eb0d1e71190324b4574df',
+            'dev_requirement' => false,
+        ),
+        'wikimedia/less.php' => array(
+            'pretty_version' => 'v3.1.0',
+            'version' => '3.1.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../wikimedia/less.php',
+            'aliases' => array(),
+            'reference' => 'a486d78b9bd16b72f237fc6093aa56d69ce8bd13',
+            'dev_requirement' => false,
+        ),
+    ),
+);

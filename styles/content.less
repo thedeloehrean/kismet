@@ -1,0 +1,161 @@
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+main {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  height: 0%;
+  color: #FFFFFF;
+  overflow: hidden;
+  transition: all 1s ease-in-out;
+
+  .content-frame {
+    position: absolute;
+    overflow: scroll;
+    transition: height 0.75s ease-in-out;
+    transition-property: height, box-shadow;
+    height: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+
+    .container {
+      opacity: 0;
+      transition: all 0.3s ease-in-out;
+
+      &.active {
+        opacity: 1;
+      }
+
+      &:first-child {
+        padding-top: 30px;
+      }
+
+      &:last-child {
+        padding-bottom: 30px;
+      }
+    }
+
+    // content inside is invisible until within viewport fully
+
+    &#frame-a {
+      background: #8D3822;
+    }
+
+    &#frame-b {
+      background: #72765B;
+    }
+
+    &#frame-c {
+      background: #01597A;
+    }
+
+    &#frame-d {
+      background: #1B8599;
+    }
+
+    &#frame-e {
+      background: #4A312E;
+    }
+
+    &.loading {
+      height: 0%;
+    }
+  }
+
+  &.loading {
+    height: 16%;
+
+    .content-frame {
+      transition: none;
+    }
+
+    .content-frame:nth-child(1) {
+      height: 20%;
+      z-index: 10;
+    }
+
+    .content-frame:nth-child(2) {
+      height: 40%;
+      z-index: 9;
+    }
+
+    .content-frame:nth-child(3) {
+      height: 60%;
+      z-index: 8;
+    }
+
+    .content-frame:nth-child(4) {
+      height: 80%;
+      z-index: 7;
+    }
+
+    .content-frame:nth-child(5) {
+      height: 100%;
+      z-index: 6;
+    }
+  }
+
+  &.frame-reset {
+    height: 88%;
+
+    .content-frame:nth-child(1) {
+      height: 87%;
+      z-index: 10;
+    }
+
+    .content-frame:nth-child(2) {
+      height: 92%;
+      z-index: 9;
+    }
+
+    .content-frame:nth-child(3) {
+      height: 96%;
+      z-index: 8;
+    }
+
+    .content-frame:nth-child(4) {
+      height: 98.5%;
+      z-index: 7;
+    }
+
+    .content-frame:nth-child(5) {
+      height: 100%;
+      z-index: 6;
+    }
+
+    .content-frame {
+      box-shadow: 0 0 30px -7px #000000;
+    }
+
+    .content-frame.preparing {
+      height: 0% !important;
+    }
+
+    .content-frame.active {
+      z-index: 10;
+    }
+  }
+}
+
+main, footer {
+  a:not(.fa):not(.btn) {
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
+
+.mobile-reverse {
+  @media (min-width: 768px) {
+    .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+      float: right;
+    }
+  }
+}

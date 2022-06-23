@@ -1,0 +1,158 @@
+header {
+  background-color: #646464;
+  position:fixed;
+  top:0;
+  bottom:0;
+  right:0;
+  left:0;
+
+  .container-fluid {
+    position:relative;
+  }
+
+  .header-bg-area {
+    height:100%;
+    position:relative;
+    display:flex;
+    align-items:center;
+
+    #header-bg {
+      position:absolute;
+      height:100%;
+      width:100%;
+      background-image: url('../images/andrew-m-loehr-kismet-bg.jpg');
+      background-repeat: no-repeat;
+      background-size: auto 100%;
+      background-position-x: center;
+      background-position-y: center;
+      z-index:0;
+      opacity:1; // fade in loading background
+      transition: all 2s ease-in-out;
+
+      &:before {
+        content:" ";
+        position:absolute;
+        top:0;
+        bottom:0;
+        right:0;
+        left:0;
+        background:#fff;
+        opacity:0.5;
+        transition: all 4s ease-in-out;
+      }
+
+      &.loading{
+        opacity:0; // loading background hidden
+        &:before {
+          opacity:0;
+        }
+      }
+
+      &.active {
+        transition:all 1.34s ease-in-out;
+        background-position-y: -39vh;
+      }
+    }
+    h1#site-title {
+      font-family: "Kaoly";
+      position:relative;
+      mix-blend-mode:multiply;
+      margin:auto;
+      z-index:2;
+      color:#01597a;
+      opacity:1;
+      transition:all 2s ease-in-out;
+
+      &.loading { // Logo hidden until pageload
+        letter-spacing:0.5em;
+        filter: blur(20px);
+        opacity:0;
+        transform:scale(1.1);
+      }
+      &.push-up { // center in buffer frame while content is loading
+        transition: all 1s ease-in-out;
+        transform:translateY(-8vh);
+      }
+      &.push-to-menu {
+        transition: all 1s ease-in-out;
+        font-size: 2vw;
+        letter-spacing: normal;
+        transform: translate(-40vw, -41vh);
+        opacity:0;
+      }
+    }
+  }
+
+
+  #main-menu {
+    position: fixed;
+    height: 65px;
+    display: flex;
+    bottom: 16%;
+    opacity:1;
+    align-items: stretch;
+    justify-content: flex-end;
+    flex-direction: row;
+    width: 100%;
+    z-index: 10;
+    transition: all 1s ease-in-out;
+    &.loading { // menu is on very bottom of screen until background fades in
+      bottom:0%;
+      opacity:0;
+    }
+    &.active { // menu follows content frames to affix to top of page
+      bottom: 88%;
+      box-shadow: -10px 0 20px rgba(0,0,0,.5)
+    }
+
+    .nav {
+      flex: 1;
+
+      button {
+        display: block;
+        width: 100%;
+        text-align: center;
+        color: transparent; // text transparent until content frames brought to top
+        font-family: "Kaoly";
+        font-size: 2vw;
+        height: 65px;
+        line-height: 65px;
+        cursor: pointer;
+        outline:none;
+        border:none;
+        transition: all 0.15s ease-in-out;
+
+        &#nav-a {
+          background: #8d3822;
+        }
+
+        &#nav-b {
+          background: #72765b;
+        }
+
+        &#nav-c {
+          background: #01597a;
+        }
+
+        &#nav-d {
+          background: #1b8599;
+        }
+
+        &#nav-e {
+          background: #4a312e;
+        }
+
+        &:hover {
+          transform: scale(1.05);
+          text-shadow: 0 0 10px #fff;
+          text-decoration: none;
+        }
+      }
+      &.active {
+        button {
+          color:#fff; // text color change once content frames brought to top
+        }
+      }
+    }
+  }
+}
