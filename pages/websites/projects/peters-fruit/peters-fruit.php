@@ -1,4 +1,4 @@
-<div class="website row row-reverse" aria-label="axle-workout">
+<div class="website row" aria-label="axle-workout">
 	<div class="website-content">
 		<h3>Peter's Fruit</h3>
 		<p>Peter's Fruit Company needed a way to show all the available produce during each rotating season. I put together a simple dynamic site to rotate their produce in and out of categories easily and painlessly.</p>

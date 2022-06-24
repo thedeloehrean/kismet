@@ -3,6 +3,9 @@
         <h2>Website Development &amp; Design</h2>
     </div>
     <div class="content-frame-container container">
+		<?php include('projects/intel/intel.php'); ?>
+    </div>
+    <div class="content-frame-container container">
         <?php include('projects/bango-bowls/bango-bowls.php'); ?>
     </div>
     <div class="content-frame-container container">

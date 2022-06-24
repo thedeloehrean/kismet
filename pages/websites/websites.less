@@ -33,6 +33,15 @@
           flex-direction: row-reverse;
         }
       }
+
+      &-reverse {
+        .website-screenshots {
+          .website-logo {
+            left: 0;
+            right: auto;
+          }
+        }
+      }
     }
 
     &-content {
@@ -86,6 +95,11 @@
           box-shadow: 0 0 40px -10px #000000;
           transition: all 0.5s ease-in-out;
           cursor: pointer;
+          border-radius: 5px;
+
+          &.bump-up {
+            bottom: 30%;
+          }
 
           &::before {
             content: " ";
@@ -96,6 +110,7 @@
             background-position: top center;
             width: 100%;
             height: 6%;
+            top:-10px;
             position: absolute;
             z-index: 2;
             transition: all 0.3s ease-in-out;
@@ -185,18 +200,22 @@
             display: block;
             position: relative;
             height: 100%;
-            padding-top: 2.9%;
             overflow: scroll;
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
           }
 
           &.active {
             left: 5%;
             right: 5%;
-            //top:0%;
             bottom: 0%;
             height: 100% !important;
             z-index: 12;
             transform: translateZ(15vw);
+
+            &::before {
+              top: -22px;
+            }
           }
         }
       }
