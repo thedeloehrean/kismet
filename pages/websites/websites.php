@@ -6,6 +6,9 @@
 		<?php include('projects/intel/intel.php'); ?>
     </div>
     <div class="content-frame-container container">
+		<?php include('projects/lake-atitlan/lake-atitlan.php'); ?>
+    </div>
+    <div class="content-frame-container container">
         <?php include('projects/bango-bowls/bango-bowls.php'); ?>
     </div>
     <div class="content-frame-container container">
