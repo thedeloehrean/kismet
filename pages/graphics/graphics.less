@@ -447,6 +447,37 @@
     }
   }
 
+  // TEES STYLES
+  .tee-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+
+    .single-tee {
+      width: 16.66667%;
+      transition: all 0.2s ease-in-out;
+
+      &.rotateNone { transform: rotate(0) }
+      &.rotateLeftLess { transform: rotate(-2.5deg) }
+      &.rotateRightLess { transform: rotate(2.5deg) }
+      &.rotateLeft { transform: rotate(-5deg) }
+      &.rotateRight { transform: rotate(5deg) }
+      &.rotateLeftMore { transform: rotate(-7.5deg) }
+      &.rotateRightMore { transform: rotate( 7.5deg) }
+
+      &:hover {
+        transform: scale(1.2) translateY(-30%);
+        z-index: 3;
+      }
+
+      img {
+        margin: 0 -15% -50%;
+        max-width: 130%;
+      }
+    }
+  }
+
   .section-heading {
     margin-top: 30px;
   }
