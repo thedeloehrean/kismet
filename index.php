@@ -131,43 +131,43 @@
             $(window).load(function () {
                 $('#site-title, #header-bg').removeClass('loading'); // load in background and logo
                 
-                setTimeout(function () {
-                    $('#site-title').addClass('push-up'); // center logo in buffer frame as content and menu come in
-                    $('#frame-buffer, #main-menu').removeClass('loading'); // bring content frames and menu into view
+                // setTimeout(function () {
+                //     $('#site-title').addClass('push-up'); // center logo in buffer frame as content and menu come in
+                //     $('#frame-buffer, #main-menu').removeClass('loading'); // bring content frames and menu into view
 
-                    $('main').addClass('loading');
+                //     $('main').addClass('loading');
 
-                    setTimeout(function () { // Load CONTENT FRAMES AND MENU
-                        // Shrink buffer frame and fade background
-                        $('main').removeClass('loading').addClass('frame-reset');
-                        $('#site-title').removeClass('push-up').addClass('push-to-menu');
-                        $('#main-menu, #frame-a').addClass('active');
-                        $('#header-bg').removeClass('loading').addClass('active');
+                //     setTimeout(function () { // Load CONTENT FRAMES AND MENU
+                //         // Shrink buffer frame and fade background
+                //         $('main').removeClass('loading').addClass('frame-reset');
+                //         $('#site-title').removeClass('push-up').addClass('push-to-menu');
+                //         $('#main-menu, #frame-a').addClass('active');
+                //         $('#header-bg').removeClass('loading').addClass('active');
 
-                        setTimeout(function () { //buttons fade in sequentially
-                            let navButton = $('#main-menu .nav');
-                            for (let i = 0; i < navButton.length; i++) {
-                                (function (index) {
-                                    setTimeout(function () {
-                                        navButton.eq(index).addClass('active');
+                //         setTimeout(function () { //buttons fade in sequentially
+                //             let navButton = $('#main-menu .nav');
+                //             for (let i = 0; i < navButton.length; i++) {
+                //                 (function (index) {
+                //                     setTimeout(function () {
+                //                         navButton.eq(index).addClass('active');
 
-                                        setTimeout(function () { //content fades in sequentially
-                                            let frameHomeContent = $('#frame-a .container');
+                //                         setTimeout(function () { //content fades in sequentially
+                //                             let frameHomeContent = $('#frame-a .container');
 
-                                            for (let i = 0; i < frameHomeContent.length; i++) {
-                                                (function (index) {
-                                                    setTimeout(function () {
-                                                        frameHomeContent.eq(index).addClass('active');
-                                                    }, 500 * index);
-                                                })(i)
-                                            };
-                                        }, 800); // Content fades in
-                                    }, 200 * index);
-                                })(i)
-                            };
-                        }, 800); // Buttons fade in sequentially
-                    }, 150); // CONTENT FRAMES AND MENU DELAY */
-                }, 2500); // INIT DELAY (if needed)
+                //                             for (let i = 0; i < frameHomeContent.length; i++) {
+                //                                 (function (index) {
+                //                                     setTimeout(function () {
+                //                                         frameHomeContent.eq(index).addClass('active');
+                //                                     }, 500 * index);
+                //                                 })(i)
+                //                             };
+                //                         }, 800); // Content fades in
+                //                     }, 200 * index);
+                //                 })(i)
+                //             };
+                //         }, 800); // Buttons fade in sequentially
+                //     }, 150); // CONTENT FRAMES AND MENU DELAY */
+                // }, 2500); // INIT DELAY (if needed)
 
                 $('#main-menu button').on('click', function () { // on menu button click
                     if ($(this).parent().hasClass('selected')) {
