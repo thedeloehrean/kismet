@@ -64,26 +64,31 @@
     <section id="tees-content" class="graphic-section">
         <div class="container">
             <h3 class="section-heading">Tee Shirt Designs</h3>
+            <p>Coming soon.</p>
         </div>
     </section>
     <section id="print-content" class="graphic-section">
         <div class="container">
             <h3 class="section-heading">Print Designs</h3>
+            <p>Coming soon.</p>
         </div>
     </section>
     <section id="news-content" class="graphic-section">
         <div class="container">
             <h3 class="section-heading">Newsletter Designs</h3>
+            <p>Coming soon.</p>
         </div>
     </section>
     <section id="logos-content" class="graphic-section">
         <div class="container">
             <h3 class="section-heading">Logo Designs</h3>
+            <p>Coming soon.</p>
         </div>
     </section>
     <section id="adverts-content" class="graphic-section">
         <div class="container">
             <h3 class="section-heading">Advertisements Designs</h3>
+            <p>Coming soon.</p>
         </div>
     </section>
 </div>
