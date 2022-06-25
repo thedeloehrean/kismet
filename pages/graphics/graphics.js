@@ -1,5 +1,6 @@
 jQuery(document).ready(function ($) {
-	var albumGroup = $('.album-group');
+	// Album Stuffs
+	let albumGroup = $('.album-group');
 
 	albumGroup.wrapInner('<div class="active-reset"></div>');
 
@@ -7,7 +8,7 @@ jQuery(document).ready(function ($) {
 		$(this).removeClass('getouttahere');
 	});
 
-	albumGroup.on('click', function() {
+	albumGroup.click(function() {
 		if ($(this).hasClass('active')) {
 			$(this).addClass('getouttahere').removeClass('active');
 			setTimeout(function() {
