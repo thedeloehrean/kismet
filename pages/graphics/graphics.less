@@ -1,6 +1,6 @@
 #graphics-panel {
   background: #72765B;
-  overflow: scroll;
+  overflow-y: scroll;
   position: relative;
   top: auto;
   bottom: auto;
@@ -475,6 +475,36 @@
       img {
         margin: 0 -15% -50%;
         max-width: 130%;
+      }
+    }
+  }
+
+  .single-tee-hires-wrap {
+    background: #222;
+    position: fixed;
+    top: 50vh;
+    bottom: 50vh;
+    left: 0vw;
+    right: 0vw;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+
+    &.active {
+      top: 15vh;
+      bottom: 15vh;
+      opacity: 1;
+    }
+
+    .hires-img {
+      max-height: 100%;
+
+      img {
+        max-height: 100%;
       }
     }
   }

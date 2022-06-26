@@ -117,31 +117,47 @@
 		<img src="/pages/graphics/tees/whiv-robot-tee.png" />
 	</div>
 </div>
+<div class="single-tee-hires-wrap">
+    <div class="hires-img"></div>
+</div>
 
 <script>
-	$(function () {
-		let teeWrap = $(".tee-wrap");
-		let tees = teeWrap.children();
-		while (tees.length) {
-			teeWrap.append(tees.splice(Math.floor(Math.random() * tees.length), 1)[0]);
-		}
+    let teeWrap = $(".tee-wrap"),
+        tees = teeWrap.children(),
+	    singleTee = $('.single-tee'),
+    	hiResWrap = $('.single-tee-hires-wrap'),
+        hiResImg = $('.hires-img');
 
-		$('.single-tee').each(function() {
-			//preset possible transforms
-			let transforms = [
-				"rotateNone",
-                "rotateLeftLess",
-                "rotateRightLess",
-                "rotateLeft",
-                "rotateRight",
-                "rotateLeftMore",
-                "rotateRightMore"
-            ];
+    while (tees.length) {
+        teeWrap.append(tees.splice(Math.floor(Math.random() * tees.length), 1)[0]);
+    }
 
-			//choose a random number from the array
-			let rand = Math.floor(Math.random()*transforms.length);
-			//grabs each of the list items
-			$(this).addClass(transforms[rand]);
-		});
-	});
+    singleTee.each(function() {
+        //preset possible transforms
+        let transforms = [
+            "rotateNone",
+            "rotateLeftLess",
+            "rotateRightLess",
+            "rotateLeft",
+            "rotateRight",
+            "rotateLeftMore",
+            "rotateRightMore"
+        ];
+
+        //choose a random number from the array
+        let rand = Math.floor(Math.random()*transforms.length);
+        //grabs each of the list items
+        $(this).addClass(transforms[rand]);
+    });
+
+	singleTee.click(function() {
+		let singleTeeImage = $(this).children('img').attr('src');
+		let hiResImageSrc = singleTeeImage.replace('-tee.png', '.jpg');
+
+		hiResImg.empty().append('<img src="' + hiResImageSrc + '">').parent().addClass('active');
+    });
+
+	hiResWrap.click(function() {
+		hiResImg.empty().parent().removeClass('active');
+    })
 </script>
