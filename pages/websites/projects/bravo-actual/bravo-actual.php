@@ -17,24 +17,28 @@
 				<!--[if IE 9]><video style='display: none;'><![endif]--><!--[if IE 9]></video><![endif]-->
 				<img src="/pages/websites/projects/bravo-actual/images/bravo-actual-home.jpg" alt="" class="img-responsive">
 			</picture>
+            <span class="expand-close">+</span>
 		</div>
 		<div class="website-image website-image-b">
 			<picture>
 				<!--[if IE 9]><video style='display: none;'><![endif]--><!--[if IE 9]></video><![endif]-->
 				<img src="/pages/websites/projects/bravo-actual/images/bravo-actual-products.jpg" alt="" class="img-responsive">
 			</picture>
+            <span class="expand-close">+</span>
 		</div>
 		<div class="website-image website-image-c">
 			<picture>
 				<!--[if IE 9]><video style='display: none;'><![endif]--><!--[if IE 9]></video><![endif]-->
 				<img src="/pages/websites/projects/bravo-actual/images/bravo-actual-shirt-01.jpg" alt="" class="img-responsive">
 			</picture>
+            <span class="expand-close">+</span>
 		</div>
 		<div class="website-image website-image-e">
 			<picture>
 				<!--[if IE 9]><video style='display: none;'><![endif]--><!--[if IE 9]></video><![endif]-->
 				<img src="/pages/websites/projects/bravo-actual/images/bravo-actual-shirt-02.jpg" alt="" class="img-responsive">
 			</picture>
+            <span class="expand-close">+</span>
 		</div>
 	</div>
 </div>

@@ -17,30 +17,35 @@
 				<!--[if IE 9]><video style='display: none;'><![endif]--><!--[if IE 9]></video><![endif]-->
 				<img src="/pages/websites/projects/serene-spaces/images/serene-spaces-home.jpg" alt="" class="img-responsive">
 			</picture>
+            <span class="expand-close">+</span>
 		</div>
 		<div class="website-image website-image-b">
 			<picture>
 				<!--[if IE 9]><video style='display: none;'><![endif]--><!--[if IE 9]></video><![endif]-->
 				<img src="/pages/websites/projects/serene-spaces/images/serene-spaces-category.jpg" alt="" class="img-responsive">
 			</picture>
+            <span class="expand-close">+</span>
 		</div>
 		<div class="website-image website-image-c">
 			<picture>
 				<!--[if IE 9]><video style='display: none;'><![endif]--><!--[if IE 9]></video><![endif]-->
 				<img src="/pages/websites/projects/serene-spaces/images/serene-spaces-product-options.jpg" alt="" class="img-responsive">
 			</picture>
+            <span class="expand-close">+</span>
 		</div>
 		<div class="website-image website-image-d">
 			<picture>
 				<!--[if IE 9]><video style='display: none;'><![endif]--><!--[if IE 9]></video><![endif]-->
 				<img src="/pages/websites/projects/serene-spaces/images/serene-spaces-category-popup.jpg" alt="" class="img-responsive">
 			</picture>
+            <span class="expand-close">+</span>
 		</div>
 		<div class="website-image website-image-e">
 			<picture>
 				<!--[if IE 9]><video style='display: none;'><![endif]--><!--[if IE 9]></video><![endif]-->
 				<img src="/pages/websites/projects/serene-spaces/images/serene-spaces-product-no-options.jpg" alt="" class="img-responsive">
 			</picture>
+            <span class="expand-close">+</span>
 		</div>
 	</div>
 </div>

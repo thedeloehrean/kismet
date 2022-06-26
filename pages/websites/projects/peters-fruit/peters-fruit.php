@@ -17,18 +17,21 @@
 				<!--[if IE 9]><video style='display: none;'><![endif]--><!--[if IE 9]></video><![endif]-->
 				<img src="/pages/websites/projects/peters-fruit/images/peters-fruit-homepage.jpg" alt="" class="img-responsive">
 			</picture>
+            <span class="expand-close">+</span>
 		</div>
 		<div class="website-image website-image-b" style="height: 83.2653%;">
 			<picture>
 				<!--[if IE 9]><video style='display: none;'><![endif]--><!--[if IE 9]></video><![endif]-->
 				<img src="/pages/websites/projects/peters-fruit/images/peters-fruit-category.jpg" alt="" class="img-responsive">
 			</picture>
+            <span class="expand-close">+</span>
 		</div>
 		<div class="website-image website-image-c" style="height: 69.4617%;">
 			<picture>
 				<!--[if IE 9]><video style='display: none;'><![endif]--><!--[if IE 9]></video><![endif]-->
 				<img src="/pages/websites/projects/peters-fruit/images/peters-fruit-sub-category.jpg" alt="" class="img-responsive">
 			</picture>
+            <span class="expand-close">+</span>
 		</div>
 	</div>
 </div>

@@ -191,9 +191,36 @@
             }
           }
 
+          .expand-close {
+            display: flex;
+            position: absolute;
+            width: 40px;
+            height: 40px;
+            background: #333333;
+            color: #FFFFFF;
+            top: calc(50% - 20px);
+            left: calc(50% - 20px);
+            font-size: 30px;
+            align-items: center;
+            justify-content: center;
+            font-family: Arial, Helvetica, sans-serif;
+            border-radius: 50%;
+            opacity: 0;
+            transition: all 0.2s ease-in-out;
+            z-index: 20;
+
+            &:hover {
+              transform: scale(1.1);
+            }
+          }
+
           &:hover {
             box-shadow: 0 0 20px 0 #FFFFFF;
             transition: all 0.25s ease-in-out;
+
+            .expand-close {
+              opacity: 1;
+            }
           }
 
           picture {
@@ -215,6 +242,16 @@
 
             &::before {
               top: -4.5%;
+            }
+
+            .expand-close {
+              top: -40px;
+              left: -20px;
+              transform: rotate(-135deg);
+
+              &:hover {
+                transform: rotate(-135deg) scale(1.1);
+              }
             }
           }
         }

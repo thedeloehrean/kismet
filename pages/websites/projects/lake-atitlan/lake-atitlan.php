@@ -10,43 +10,37 @@
     <div class="website-screenshots loading">
         <div class="website-logo">
             <picture>
-                <!--[if IE 9]>
-                <video style='display: none;'><![endif]--><!--[if IE 9]></video><![endif]-->
-                <img src="/pages/websites/projects/lake-atitlan/images/lake-atitlan-logos.png" alt=""
-                     class="img-responsive">
+                <!--[if IE 9]><video style='display: none;'><![endif]--><!--[if IE 9]></video><![endif]-->
+                <img src="/pages/websites/projects/lake-atitlan/images/lake-atitlan-logos.png" alt="" class="img-responsive">
             </picture>
         </div>
         <div class="website-image website-image-a">
             <picture>
-                <!--[if IE 9]>
-                <video style='display: none;'><![endif]--><!--[if IE 9]></video><![endif]-->
-                <img src="/pages/websites/projects/lake-atitlan/images/lake-atitlan-homepage.jpg" alt=""
-                     class="img-responsive">
+                <!--[if IE 9]><video style='display: none;'><![endif]--><!--[if IE 9]></video><![endif]-->
+                <img src="/pages/websites/projects/lake-atitlan/images/lake-atitlan-homepage.jpg" alt="" class="img-responsive">
             </picture>
+            <span class="expand-close">+</span>
         </div>
         <div class="website-image website-image-b">
             <picture>
-                <!--[if IE 9]>
-                <video style='display: none;'><![endif]--><!--[if IE 9]></video><![endif]-->
-                <img src="/pages/websites/projects/lake-atitlan/images/lake-atitlan-about-us.jpg" alt=""
-                     class="img-responsive">
+                <!--[if IE 9]><video style='display: none;'><![endif]--><!--[if IE 9]></video><![endif]-->
+                <img src="/pages/websites/projects/lake-atitlan/images/lake-atitlan-about-us.jpg" alt="" class="img-responsive">
             </picture>
+            <span class="expand-close">+</span>
         </div>
         <div class="website-image website-image-c">
             <picture>
-                <!--[if IE 9]>
-                <video style='display: none;'><![endif]--><!--[if IE 9]></video><![endif]-->
-                <img src="/pages/websites/projects/lake-atitlan/images/lake-atitlan-forcasting.jpg" alt=""
-                     class="img-responsive">
+                <!--[if IE 9]><video style='display: none;'><![endif]--><!--[if IE 9]></video><![endif]-->
+                <img src="/pages/websites/projects/lake-atitlan/images/lake-atitlan-forcasting.jpg" alt="" class="img-responsive">
             </picture>
+            <span class="expand-close">+</span>
         </div>
         <div class="website-image website-image-e">
             <picture>
-                <!--[if IE 9]>
-                <video style='display: none;'><![endif]--><!--[if IE 9]></video><![endif]-->
-                <img src="/pages/websites/projects/lake-atitlan/images/lake-atitlan-monitoring.jpg" alt=""
-                     class="img-responsive">
+                <!--[if IE 9]><video style='display: none;'><![endif]--><!--[if IE 9]></video><![endif]-->
+                <img src="/pages/websites/projects/lake-atitlan/images/lake-atitlan-monitoring.jpg" alt="" class="img-responsive">
             </picture>
+            <span class="expand-close">+</span>
         </div>
     </div>
 </div>

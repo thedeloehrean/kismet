@@ -17,30 +17,35 @@
 				<!--[if IE 9]><video style='display: none;'><![endif]--><!--[if IE 9]></video><![endif]-->
 				<img src="/pages/websites/projects/bango-bowls/images/bango-bowls-homepage.jpg" alt="" class="img-responsive">
 			</picture>
+            <span class="expand-close">+</span>
 		</div>
 		<div class="website-image website-image-b">
 			<picture>
 				<!--[if IE 9]><video style='display: none;'><![endif]--><!--[if IE 9]></video><![endif]-->
 				<img src="/pages/websites/projects/bango-bowls/images/bango-bowls-our-story.jpg" alt="" class="img-responsive">
 			</picture>
+            <span class="expand-close">+</span>
 		</div>
 		<div class="website-image website-image-c">
 			<picture>
 				<!--[if IE 9]><video style='display: none;'><![endif]--><!--[if IE 9]></video><![endif]-->
 				<img src="/pages/websites/projects/bango-bowls/images/bango-bowls-contact-us.jpg" alt="" class="img-responsive">
 			</picture>
+            <span class="expand-close">+</span>
 		</div>
 		<div class="website-image website-image-d">
 			<picture>
 				<!--[if IE 9]><video style='display: none;'><![endif]--><!--[if IE 9]></video><![endif]-->
 				<img src="/pages/websites/projects/bango-bowls/images/bango-bowls-locations.jpg" alt="" class="img-responsive">
 			</picture>
+            <span class="expand-close">+</span>
 		</div>
 		<div class="website-image website-image-e">
 			<picture>
 				<!--[if IE 9]><video style='display: none;'><![endif]--><!--[if IE 9]></video><![endif]-->
 				<img src="/pages/websites/projects/bango-bowls/images/bango-bowls-massapequapark.jpg" alt="" class="img-responsive">
 			</picture>
+            <span class="expand-close">+</span>
 		</div>
 	</div>
 </div>
