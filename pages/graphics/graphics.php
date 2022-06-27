@@ -28,37 +28,38 @@
         </div>
         <div class="content-frame-container container">
             <div class="album-group">
-                <?php include('websites/alucard/alucard-cd.php'); ?>
+                <?php include('albums/alucard/alucard-cd.php'); ?>
             </div>
             <div class="album-group vinyl">
-                <?php include('websites/andrew-loehr/andrew-loehr-vinyl.php'); ?>
+                <?php include('albums/andrew-loehr/andrew-loehr-vinyl.php'); ?>
             </div>
             <div class="album-group">
-                <?php include('websites/royden/royden-cd.php'); ?>
+                <?php include('albums/royden/royden-cd.php'); ?>
             </div>
             <div class="album-group">
-                <?php include('websites/elephantom/elephantom-cd.php'); ?>
+                <?php include('albums/elephantom/elephantom-cd.php'); ?>
             </div>
             <div class="album-group">
-                <?php include('websites/eight-minutes/eight-minutes-cd.php'); ?>
+                <?php include('albums/eight-minutes/eight-minutes-cd.php'); ?>
+            </div>
+            <div class="album-group">
+                <?php include('albums/asecondtoolate/asecondtoolate-cd.php'); ?>
+            </div>
+            <div class="album-group">
+                <?php include('albums/woodward/woodward-cd.php'); ?>
+            </div>
+            <div class="album-group">
+                <?php include('albums/elle/elle-cd.php'); ?>
+            </div>
+            <div class="album-group cassette">
+                <?php include('albums/weakend/weakend-hereavv-tape.php'); ?>
+            </div>
+            <div class="album-group cassette">
+                <?php include('albums/weakend/weakend-tornado-days-tape.php'); ?>
             </div>
         </div>
-        <div class="content-frame-container container">
-            <div class="album-group">
-                <?php include('websites/asecondtoolate/asecondtoolate-cd.php'); ?>
-            </div>
-            <div class="album-group">
-                <?php include('websites/woodward/woodward-cd.php'); ?>
-            </div>
-            <div class="album-group">
-                <?php include('websites/elle/elle-cd.php'); ?>
-            </div>
-            <div class="album-group cassette">
-                <?php include('websites/weakend/weakend-hereavv-tape.php'); ?>
-            </div>
-            <div class="album-group cassette">
-                <?php include('websites/weakend/weakend-tornado-days-tape.php'); ?>
-            </div>
+        <div class="album-hires-wrap">
+            <span class="expand-close">+</span>
         </div>
     </section>
     <section id="tees-content" class="graphic-section">
