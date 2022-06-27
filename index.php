@@ -51,7 +51,6 @@
 	</header>
     <main>
         <section class="content-frame" id="frame-a">
-            <?php include 'pages/home/home.php' ?>
         </section>
         <section class="content-frame" id="frame-b">
             <div class="content-frame-container container">
@@ -150,6 +149,8 @@
                                 (function (index) {
                                     setTimeout(function () {
                                         navButton.eq(index).addClass('active');
+
+										$('#frame-a').load('pages/home/home.php');
 
                                         setTimeout(function () { //content fades in sequentially
                                             let frameHomeContent = $('#frame-a .container');

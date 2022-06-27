@@ -22,10 +22,11 @@
   font-style: normal;
 }
 
-p {
-  font-size: 18px;
+p, a {
+  font-size: 14px;
   line-height: 1.4em;
   margin: 10px 0;
+  color: #fff;
 
   @media only screen and (min-width: 1200px) {
     font-size: 1.4vw;
@@ -53,7 +54,7 @@ h1 {
 }
 
 h2 {
-  font-size: 38px;
+  font-size: 28px;
   line-height: 1.2em;
 
   @media only screen and (min-width: 1200px) {
@@ -62,18 +63,22 @@ h2 {
 }
 
 h3 {
-  font-size: 28px;
+  font-size: 24px;
   line-height: 1.2em;
   font-family: 'Restless Youth Small Caps', Helvetica, Arial, sans-serif;
 
   @media only screen and (min-width: 1200px) {
     font-size: 2vw;
   }
+
+  &.section-heading {
+    margin-top: 30px;
+  }
 }
 
 h4 {
   font-family: 'Titillium Web', Helvetica, Arial, sans-serif;
-  font-size: 22px;
+  font-size: 18px;
   line-height: 1.2em;
 
   @media only screen and (min-width: 1200px) {
@@ -85,4 +90,11 @@ h5 {
 }
 
 h6 {
+  font-family: 'Titillium Web', Helvetica, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: 200;
+}
+
+.centered {
+  text-align: center;
 }
