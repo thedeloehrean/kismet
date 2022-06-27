@@ -83,7 +83,6 @@ header {
     }
   }
 
-
   #main-menu {
     position: fixed;
     height: 65px;
@@ -96,13 +95,14 @@ header {
     width: 100%;
     z-index: 10;
     transition: all 1s ease-in-out;
+
     &.loading { // menu is on very bottom of screen until background fades in
       bottom:0%;
       opacity:0;
     }
+
     &.active { // menu follows content frames to affix to top of page
       bottom: 88%;
-      box-shadow: -10px 0 20px rgba(0,0,0,.5)
     }
 
     .nav {
