@@ -4,7 +4,6 @@
             <h2 class="page-title">About Andrew M Loehr</h2>
         </div>
     </div>
-
     <div class="content-frame-container container">
         <div class="row">
             <h4 style="color:#fff;">Andrew M Loehr is a Frontend Website Developer,&nbsp;UI/UX
@@ -17,5 +16,8 @@
                 experience to address and solve your company, band, or personal creative, innovative, and technical
                 needs.</p>
         </div>
+    </div>
+    <div class="container container-full">
+        <div class="homepage-collage"></div>
     </div>
 </div>
