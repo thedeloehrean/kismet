@@ -16,6 +16,7 @@
     position: absolute;
     width: 40px;
     height: 40px;
+    cursor: pointer;
     background: #333333;
     color: #FFFFFF;
     top: calc(50% - 20px);
@@ -563,6 +564,17 @@
       bottom: 15vh;
       opacity: 1;
       z-index: 100;
+
+      .expand-close {
+        top: 10px;
+        left: 10px;
+        opacity: 1;
+        transform: rotate(45deg);
+
+        &:hover {
+          transform: rotate(45deg) scale(1.2);
+        }
+      }
     }
 
     .hires-img {

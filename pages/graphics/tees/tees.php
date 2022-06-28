@@ -118,6 +118,7 @@
 	</div>
 </div>
 <div class="single-tee-hires-wrap">
+    <div class="expand-close">+</div>
     <div class="hires-img"></div>
 </div>
 
