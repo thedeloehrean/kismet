@@ -6,7 +6,7 @@
     </div>
     <div class="content-frame-container container">
         <div class="row">
-            <h4 style="color:#fff;">Andrew M Loehr is a Frontend Website Developer,&nbsp;UI/UX
+            <h4>Andrew M Loehr is a Frontend Website Developer,&nbsp;UI/UX
                     Designer, and Graphic designer with a focus on eCommerce living in Ferndale, MI.</h4>
             <p>He has over 20 years of front-end, user-centered (UI), structure-oriented, design experience comprised of
                 website design and development, software application design and development, consulting, company

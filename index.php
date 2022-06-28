@@ -44,7 +44,7 @@
 					<button id="nav-d">Branding</button>
 				</div>
 				<div class="nav">
-					<button id="nav-e">Contact</button>
+					<button id="nav-e">eCommerce</button>
 				</div>
 			</div>
 		</div>
@@ -206,7 +206,7 @@
                                     } if (btnIdNum === 'd') {
                                         clickedFrameId.load('pages/branding/branding.php');
                                     } if (btnIdNum === 'e') {
-                                        clickedFrameId.load('pages/contact/contact.php');
+                                        clickedFrameId.load('pages/ecommerce/ecommerce.php');
                                     }
 
                                     $(document).ajaxComplete(function() {

@@ -491,16 +491,37 @@
         &.active {
           .tape-face {
             transition: transform 1s ease-in-out;
-            transform: translate3d(90%, -10%, 55vw) rotate3d(0, 0, 1, -8deg);
+            transform: translate3d(90%, 5%, 55vw) rotate3d(0, 0, 1, -8deg);
           }
 
           .album-cover {
-            transform: translate3d(155%, 40%, 50vw) rotate3d(1, -5, 0.1, 60deg);
+            transform: translate3d(155%, 50%, 50vw) rotate3d(1, -5, 0.1, 60deg);
           }
 
           .lonelyboi {
             transition: transform 1.15s ease-in-out;
-            transform: translate3d(30%, 40%, 50vw) rotate3d(2, 10, 0.1, 20deg);
+            transform: translate3d(30%, 50%, 50vw) rotate3d(2, 10, 0.1, 20deg);
+          }
+        }
+      }
+
+      &.no-jacket {
+        &.active {
+          .album-cover {
+            transition: transform 1s cubic-bezier(0.6, 0.25, 0.6, 1.2);
+            transform: translate3d(40%, 20%, 60vw) rotate3d(0.7, 4.5, -0.1, 9deg);
+
+            @media only screen and (min-width: 767px) {
+              transform: translate3d(25%, 38%, 50vw) rotate3d(0.7, 4.5, -0.1, 20deg);
+            }
+          }
+
+          .album-face {
+            transform: translate3d(132%, 20%, 60vw);
+
+            @media only screen and (min-width: 767px) {
+              transform: translate3d(105%, 40%, 50vw);
+            }
           }
         }
       }

@@ -48,7 +48,7 @@
             <div class="album-group">
                 <?php include('albums/woodward/woodward-cd.php'); ?>
             </div>
-            <div class="album-group">
+            <div class="album-group no-jacket">
                 <?php include('albums/elle/elle-cd.php'); ?>
             </div>
             <div class="album-group cassette">
@@ -90,7 +90,7 @@
     </section>
     <section id="adverts-content" class="graphic-section">
         <div class="container">
-            <h3 class="section-heading">Advertisements Designs</h3>
+            <h3 class="section-heading">Advertisements</h3>
             <p>Coming soon.</p>
         </div>
     </section>
