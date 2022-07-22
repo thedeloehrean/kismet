@@ -24,6 +24,12 @@ main {
     right: 0;
     top: 0;
 
+    -ms-overflow-style: none;
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+
     .container {
       opacity: 0;
       transition: all 0.3s ease-in-out;
@@ -139,6 +145,11 @@ main {
 
     .content-frame.active {
       z-index: 10;
+      -ms-overflow-style: none;
+
+      &::-webkit-scrollbar {
+        display: none;
+      }
     }
   }
 }

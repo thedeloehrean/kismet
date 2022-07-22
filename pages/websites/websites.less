@@ -7,6 +7,12 @@
   bottom: auto;
   height: 100%;
 
+  -ms-overflow-style: none;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
   .container {
     &.extra-content {
       @media (min-width: 768px) {
@@ -71,6 +77,12 @@
           .website {
             &-image {
               height: 60%;
+
+              &.active {
+                &::before {
+                  top: -3.5%;
+                }
+              }
             }
           }
         }
@@ -230,6 +242,12 @@
             overflow: scroll;
             border-bottom-left-radius: 5px;
             border-bottom-right-radius: 5px;
+
+            -ms-overflow-style: none;
+
+            &::-webkit-scrollbar {
+              display: none;
+            }
           }
 
           &.active {
